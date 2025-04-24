@@ -12,6 +12,7 @@ pkgs.mkShell {
       ps.matplotlib
       ps.scikitlearn
       ps.kaggle
+      ps.pandas
     ]))
   ];
 }
