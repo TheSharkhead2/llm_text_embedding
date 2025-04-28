@@ -3,6 +3,10 @@ import os
 import torch
 import numpy as np
 
+library_parent_path = ".."
+abs_library_parent_path = os.path.abspath(library_parent_path)
+sys.path.insert(0, abs_library_parent_path)
+
 from llm2vec import LLM2Vec
 
 
