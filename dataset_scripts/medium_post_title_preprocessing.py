@@ -48,13 +48,13 @@ def main(args):
     all_titles_output = os.path.join(args.o, "all_titles.txt")
 
     with open(ai_titles_output, 'w', encoding="utf-8") as f:
-        for title in ai_titles_output:
+        for title in ai_titles:
             f.write(title + "\n")
         # for title
     # with open() as f
 
     with open(all_titles_output, 'w', encoding="utf-8") as f:
-        for title in all_titles_output:
+        for title in all_titles:
             f.write(title + "\n")
         # for title
     # with open() as f
